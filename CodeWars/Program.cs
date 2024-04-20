@@ -4,7 +4,7 @@
 using System.Text;
 using CodeWars.Solutions;
 
-var result = MostFrequentWords.Solution("e e e e DDD ddd DdD: ddd ddd aa aA Aa, bb cc cC e e e");
+var result = MostFrequentWords.SolutionSlowButReadable("  '  ");
 Console.WriteLine(String.Join('-', result));
 
 
