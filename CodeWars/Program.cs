@@ -6,5 +6,9 @@ using System.Text;
 using CodeWars;
 using CodeWars.Solutions;
 
-var result = NonRepeatingCharacter.FirstNonRepeatingLetter("rrr");
-Console.WriteLine(String.Join('-', result));
+
+ foreach (var prime in Primes.Stream())
+ {
+  Console.WriteLine(prime);
+ }
+Console.Write("");
