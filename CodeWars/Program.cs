@@ -6,12 +6,11 @@ using System.Text;
 using CodeWars;
 using CodeWars.Solutions;
 
-var matrix = new int[][]
+var matrix = new List<List<int>>
 {
-    new int[] {1,2,3,9 },
-    new int[] { 4,5,6,4},
-    new int[] {7,8,9,1 },
-    new int[] {1,2,3,4}
+    new() { 5, 3, 4 },
+    new() { 1, 5, 8 },
+    new() { 6, 4, 2 },
 };
-var result = SnailSolution.Snail(matrix);
+var result = MagicSquare.Solution(matrix);
 Console.Write("");
